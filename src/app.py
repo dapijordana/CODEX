@@ -8,7 +8,7 @@ from typing import Optional
 
 from PIL import Image, ImageTk
 
-from crypto_core import ALG_MAP, decrypt_path, encrypt_path, is_encrypted
+from .crypto_core import ALG_MAP, decrypt_path, encrypt_path, is_encrypted
 
 THEME_BG = "#f8f8f8"
 THEME_FG = "#111111"

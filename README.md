@@ -16,6 +16,7 @@ Pastikan Python 3.10+ tersedia.
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\\Scripts\\activate
 pip install -r requirements.txt
+# jalankan dari root repo agar impor paket bekerja
 python -m src.app
 ```
 
